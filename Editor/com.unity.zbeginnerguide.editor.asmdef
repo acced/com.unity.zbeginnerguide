@@ -1,0 +1,16 @@
+{
+    "name": "com.unity.zbeginnerguide.editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f0cc2c7fe1b214dc69ba5ce3a22be0f9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
