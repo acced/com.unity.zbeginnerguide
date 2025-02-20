@@ -6,9 +6,9 @@
   "unity": "2019.4",
   "unityRelease": "25f1",
   "dependencies": {
-    "com.unity.ugui": "1.0.0"
+    "com.unity.ugui": "1.0.1"
   },
   "_upm": {
-    "changelog": "Integration:\n\n- Add support for BeginnerGuide"
+    "changelog": "Integration:\n\n- Add Resources/BeginnerGuide"
   }
 }
