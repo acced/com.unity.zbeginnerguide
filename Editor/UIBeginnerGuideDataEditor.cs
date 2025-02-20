@@ -1,6 +1,7 @@
     using UnityEditor;
     using UnityEngine;
-
+namespace ZBeginnerGuide
+{
     public class GuideMenu
     {
         [MenuItem("ZBeginnerGuide/Create Beginner Guide", false, 55)]
@@ -9,3 +10,6 @@
             Debug.Log("Create Beginner Guide");
         }
     }
+    
+}
+    
