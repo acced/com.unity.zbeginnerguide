@@ -28,5 +28,22 @@ namespace ZBeginnerGuide
             var asset = AssetDatabase.LoadAssetAtPath<T>(path);
             onLoadFinish?.Invoke(asset);
         }
+
+        /// <summary>
+        /// 获取Package中的资源路径
+        /// </summary>
+        public static string GetPackageResourcePath(string relativePath)
+        {
+            return $"Packages/com.unity.zbeginnerguide/{relativePath}";
+        }
+
+        /// <summary>
+        /// 加载Package中的图片资源
+        /// </summary>
+        public static T LoadPackageResource<T>(string relativePath) where T : UnityEngine.Object
+        {
+            string fullPath = GetPackageResourcePath(relativePath);
+            return AssetDatabase.LoadAssetAtPath<T>(fullPath);
+        }
     }
 }
