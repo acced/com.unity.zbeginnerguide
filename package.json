@@ -10,5 +10,9 @@
   },
   "_upm": {
     "changelog": "Integration:\n\n- Add Resources/BeginnerGuide"
-  }
+  },
+  "files": [
+    "Res/**/*",
+    "Editor/**/*"
+  ]
 }
